@@ -1,0 +1,561 @@
+/*********************************************Layout Color Changes **********************************/
+.btn-primary {
+    background-color: #222d32;
+    color: #42b2b9;
+}.btn-primary:hover {
+     background-color: #222d32;
+     color: #42b2b9;
+ }
+.skin-blue .main-header .navbar {
+    background-color: #222d32;
+}
+.skin-blue .main-header .logo
+{
+    background-color: #222d32;
+    color: #42b2b9;
+}
+.skin-blue .main-header .logo:hover
+{
+    background-color: #222d32;
+    color: #fff;
+}
+.skin-blue .main-header .navbar .nav>li>a {
+    color: #42b2b9;
+}
+.sidebar-menu, .main-sidebar .user-panel, .sidebar-menu>li.header
+{
+    margin-top: 5%;
+}
+.skin-blue .sidebar a {
+    color: #ffffff;
+}
+.skin-blue .sidebar-menu>li:hover>a, .skin-blue .sidebar-menu>li.active>a, .skin-blue .sidebar-menu>li.menu-open>a
+{
+    color: #42b2b9;
+    background: #000000;
+}
+.skin-blue .sidebar-menu>li.active>a
+{
+    border-left-color: #42b2b9;
+}
+.skin-blue .wrapper, .skin-blue .main-sidebar, .skin-blue .left-side
+{
+    background-color: #222d32;
+}
+.skin-blue .main-header li.user-header
+{
+    background-color: #222d32;
+    color: #42b2b9;
+}
+.navbar-nav>.user-menu>.dropdown-menu>li.user-header>p
+{
+    color: #42b2b9;
+}
+.navbar-nav>.user-menu>.dropdown-menu>li.user-header>p:hover
+{
+    color: #fff;
+}
+.main-footer
+{
+    background: #222d32;
+    color: #fff;
+}
+
+
+.showImg
+{
+    height: 75px;
+    width: 75px;
+}
+.editImg
+{
+    height: 150px;
+    width: 150px;
+}
+.logout-btn
+{
+    padding: 9px;
+}
+.logout-text
+{
+    margin-left: -10%;
+}
+/*********************************************************Login Register*********************************************************/
+.login-box-body
+{
+    margin-top: -10%;
+}
+.register-box-body
+{
+    border: 1px solid;
+    margin-top: 45%;
+}
+.login-page, .register-page {
+    background: #ffffff !important;
+}
+.register-box
+{
+    margin-top: 10%;
+}
+.scrollable
+{
+    overflow: auto;
+}
+.btn-login
+{
+    background-color: #42b2b9 !important;
+    width: 104px;
+    border-radius: 10px;
+    font-weight: 700;
+    margin-left: -7%;
+}
+.login-link
+{
+    color: #525252;
+    font-size: 18px;
+}
+.login-link:hover
+{
+    text-decoration: underline;
+    color: black;
+}
+.register-link
+{
+    color: #42b2b9;
+}
+.reset-page-box
+{
+    border: 1px solid;
+}
+.reset-row
+{
+    height: 265px;
+}
+.affliate-page-body
+{
+    border: 1px solid;
+}
+.register-row
+{
+    height: 38px;
+}
+/*********************************************************Header/footer**********************************************************************/
+.navbar
+{
+    border-radius: 0 !important;
+}
+.navbar-inverse
+{
+    background-color: #2b2929 !important;
+}
+.navbar-toggle11
+{
+    display: block !important;
+    float: left !important;
+}
+.navbar-inverse .navbar-brand {
+    color: #42b2b9;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.navbar-inverse .navbar-brand:hover {
+    color: #42b2b9;
+}
+.icon-bar {
+    color: #42b2b9 !important;
+    border-color: #42b2b9 !important;
+    background-color: #42b2b9 !important;
+}
+.footer--light {
+    background:#e7e8ed
+}
+.footer-big .footer-menu ul li a,.footer-big p,.footer-big ul li {
+    color:#898b96
+}
+
+.mini-footer {
+    background:#192027;
+    text-align:center;
+    padding:32px 0
+}
+.mini-footer p {
+    margin:0;
+    line-height:26px;
+    font-size:15px;
+    color:#999;
+}
+.mini-footer p a {
+    color:#42b2b9;
+}
+.mini-footer p a:hover {
+    color:#42b2b9;
+}
+.main-footer-header
+{
+    background-color: #192027;
+    min-height: 100px;
+    text-align: center;
+    color: white;
+    line-height: 100px;
+}
+.main-footer-header2
+{
+    background-color: #192027;
+    min-height: 100px;
+    text-align: center;
+    color: white;
+    line-height: 100px;
+}
+@media (max-width: 768px) {
+    .navbar-toggle11
+    {
+        display: block !important;
+    }
+    .btn-login
+    {
+        margin-left: 0 !important;
+    }
+
+}
+
+
+
+/******************************************************************HOME PAGE***********************************************/
+
+.logo-center
+{
+    width: 22% !important;
+}
+.d-logo-img
+{
+    height:50px;
+    width: 50px;
+    margin-left: -13%;
+}
+.home-texts
+{
+    color:#42b2b9;
+    font-size: 18px;
+    margin-bottom: 0 !important;
+    text-align: center;
+    height: 3%;
+}
+.home-text-no-color
+{
+    text-align: center;
+    height: 5%;
+}
+.home-affliates
+{
+    background-color: black;
+    color: #42b2b9;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    margin: 5%;
+    margin-bottom: 0;
+}
+.affliate-text
+{
+    width: 60%;
+    position: absolute;
+    top: 105%;
+}
+.affliate-image
+{
+    height: 85px;
+    width: 70px;
+    border-radius: 50%;
+}
+.affliate-row
+{
+    margin-bottom: 3%;
+}
+.affliate-link
+{
+    color: black !important;
+}
+.affliate-link:hover
+{
+    color: black !important;
+}
+.affliate-details
+{
+    padding-left: 25px;
+}
+.rank-img
+{
+    width: 75px;
+    height: 75px;
+    margin-left: 12%;
+    margin-top: -12%;
+}
+.home-affliates-div
+{
+    width: 24.333%;
+}
+.home-affliates p
+{
+    text-align: center;
+    padding: 30px;
+    font-weight: 700;
+}
+.company-name
+{
+    text-transform: uppercase;
+}
+.company-redirection
+{
+    padding: 10px;
+}
+.home-row
+{
+    height: 28.15%;
+}
+.next-rank-name
+{
+    text-transform: uppercase;
+}
+@media (max-width: 768px) {
+    .home-affliates
+    {
+        width: 50px !important;
+        height: 60px !important;
+    }
+    .affliate-details
+    {
+        text-align: left;
+    }
+    .affliate-image
+    {
+        height: 35px;
+        width: 50px;
+        text-align: left;
+    }
+    .affliate-title
+    {
+        font-size: 18px;
+        text-align: left;
+    }
+    .progressbar
+    {
+        margin-left: 0!important;
+        margin-top: 5% !important;
+    }
+    .affliate-text
+    {
+        width:68%;
+        text-align: center;
+    }
+    .home-affliates p
+    {
+        padding: 18px;
+    }
+}
+@media (min-width:768px) and (max-width:1000px){
+    .affliate-details
+    {
+        text-align: left;
+        width: 100% !important;
+    }
+    .home-affliates
+    {
+        width: 50px !important;
+        height: 60px !important;
+    }
+    .affliate-text
+    {
+        width: 50%;
+        text-align: center;
+    }
+    .home-affliates p
+    {
+        padding: 18px;
+    }
+}
+@media (min-width:1000px) and (max-width:1024px){
+
+}
+@media (min-width:412px) and (max-width:750px){
+
+}
+
+
+.progressbar {
+    display: inline-block;
+    width: 100px;
+    margin-top: 15%;
+    margin-bottom:25px;
+    margin-left: -51%;
+}
+.circle {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+.circle canvas {
+    vertical-align: middle;
+}
+.circle div {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+}
+.circle strong i {
+    font-style: normal;
+    font-size: 0.6em;
+    font-weight: normal;
+}
+.circle span {
+    display: block;
+    color: #aaa;
+    margin-top: 12px;
+}
+
+
+/****************************************************Back End Table/Edit page Css**************************************/
+.table-img
+{
+    height: 75px;
+    width: 75px;
+}
+.company-name
+{
+    text-transform: uppercase;
+}
+
+/***********************************************************Email Verification Page****************************************/
+.verification-row
+{
+    height: 30.45%;
+}
+.email-verification
+{
+    background: #fff0e5;
+    height: 115px;
+    padding: 25px;
+}
+
+/**************************************************************Profile Complete Page ******************************************/
+.admin-profile-box
+{
+    width: 70%;
+    border: 1px solid;
+    height: 85%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    padding: 20px;
+    text-align: left;
+}
+.user-panel>.image>img{
+    max-width: 50px;
+    height: 50px;
+}
+.imageSales{
+    height: 100px;
+    width: 100px;
+}
+
+/*******************************************************Payment Page *********************************************/
+.stripe-modal-body
+{
+    text-align: center;
+}
+.payment-content
+{
+    text-align: left;
+}
+.payment-detail
+{
+    text-align: left;
+}
+
+.LoaderBalls {
+    width: 90px;
+    justify-content: space-between;
+    opacity: 1 !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: none;
+}
+.LoaderBalls__item {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #00f1ca;
+}
+.LoaderBalls__item:nth-child(1) {
+    animation: bouncing 0.4s alternate infinite cubic-bezier(0.6, 0.05, 0.15, 0.95);
+}
+.LoaderBalls__item:nth-child(2) {
+    animation: bouncing 0.4s 0.1s alternate infinite cubic-bezier(0.6, 0.05, 0.15, 0.95) backwards;
+}
+.LoaderBalls__item:nth-child(3) {
+    animation: bouncing 0.4s 0.2s alternate infinite cubic-bezier(0.6, 0.05, 0.15, 0.95) backwards;
+}
+
+@keyframes bouncing {
+    0% {
+        transform: translate3d(0, 10px, 0) scale(1.2, 0.85);
+    }
+    100% {
+        transform: translate3d(0, -20px, 0) scale(0.9, 1.1);
+    }
+}
+
+#successmsg
+{
+    display: none;
+}
+.card-active
+{
+    color: #00A000;
+}
+.card-inactive
+{
+    color: red;
+}
+.activeBtn
+{
+    opacity: 0.5;
+    cursor: no-drop !important;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:active
+{
+    color: white !important;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover
+{
+    background: #0e2040 !important;
+    color: white !important;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button
+{
+    color: white !important;
+}
+.rank-image-alert
+{
+    width: 100%;
+    display: none;
+}
+#invalidPhone
+{
+    display: none;
+}
+.rank-no-img
+{
+    width: 50px;
+    height: 50px;
+    margin-left: 24%;
+    margin-top: -5%;
+}

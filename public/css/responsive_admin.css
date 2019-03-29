@@ -1,0 +1,258 @@
+/*@media screen and (max-width: 1025px){*/
+    /*.txt-lft {*/
+        /*text-align: left;*/
+        /*padding-left: 0px;*/
+    /*}*/
+    /*.rate-padding2 {*/
+        /*margin-left: -11px;*/
+    /*}*/
+    /*.position4 {*/
+        /*right: 114px;*/
+    /*}*/
+    /*.tbl-btm {*/
+        /*padding-left: 28px;*/
+    /*}*/
+/*}*/
+
+/*@media screen and (max-width: 769px) {*/
+    /*.card1 {*/
+        /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);*/
+        /*max-width: 350px;*/
+        /*margin: auto;*/
+        /*text-align: center;*/
+        /*font-family: arial;*/
+    /*}*/
+
+    /*.card1 button {*/
+        /*border: none;*/
+        /*outline: 0;*/
+        /*padding: 12px;*/
+        /*color: white;*/
+        /*background-color: #FF5722;*/
+        /*text-align: center;*/
+        /*cursor: pointer;*/
+        /*width: 100%;*/
+        /*font-size: 13px;*/
+    /*}*/
+
+    /*.name-padding1 {*/
+        /*padding: 20px 30px;*/
+    /*}*/
+
+    /*.rate-padding1 {*/
+        /*margin-top: 0px;*/
+    /*}*/
+
+    /*.rate-padding2 {*/
+        /*margin-left: -8px;*/
+    /*}*/
+    /*.position6{*/
+        /*padding-left: 0px!important;*/
+    /*}*/
+    /*.quantite-top {*/
+        /*margin-top: -2px !important;*/
+    /*}*/
+    /*.tbl-mrgn {*/
+        /*margin-top: -24px;*/
+    /*}*/
+    /*.tbl-mrgn1 {*/
+        /*margin-top: -13px;*/
+    /*}*/
+    /*.position4 {*/
+        /*right: 94px;*/
+    /*}*/
+    /*.txt-lft {*/
+        /*text-align: left;*/
+        /*padding-left: 20px;*/
+    /*}*/
+/*}*/
+
+/*@media only screen and (max-width: 415px) {*/
+    /*.junior-size {*/
+        /*width: 100%;*/
+        /*border: 1px solid;*/
+    /*}*/
+
+    /*.position1 {*/
+        /*right: 0px;*/
+    /*}*/
+
+    /*.position {*/
+        /*margin-top: 10px;*/
+    /*}*/
+
+    /*.position2 {*/
+        /*left: 0px;*/
+    /*}*/
+
+    /*.position3 {*/
+        /*margin-top: 0px;*/
+    /*}*/
+
+    /*.position4 {*/
+        /*right: 0px;*/
+    /*}*/
+
+    /*.btn-padding {*/
+        /*padding-top: 10px;*/
+    /*}*/
+
+    /*.quantite-top {*/
+        /*margin-top: -35px !important;*/
+    /*}*/
+
+    /*.tbl-padding {*/
+        /*padding-top: 10px;*/
+        /*padding-right: 0px;*/
+        /*padding-left: 95px;*/
+    /*}*/
+
+    /*.tbl-padding1 {*/
+        /*padding-top: 10px;*/
+        /*padding-right: 45px;*/
+    /*}*/
+
+    /*.tbl-padding2 {*/
+        /*padding: 15px;*/
+        /*padding-left: 105px;*/
+    /*}*/
+
+    /*.tbl-brdr {*/
+        /*border: 0px solid #ddd !important;*/
+        /*margin-bottom: -5px;*/
+    /*}*/
+
+    /*.price-padding {*/
+        /*margin-top: 0px !important;*/
+        /*margin-bottom: 0px !important;*/
+    /*}*/
+
+    /*.tbl-btm {*/
+        /*padding-left: 131px;*/
+    /*}*/
+    /*.junior-size {*/
+        /*width: 100%;*/
+        /*border: 1px solid;*/
+        /*margin-left: 0px;*/
+    /*}*/
+    /*.txt-lft{*/
+        /*text-align: center;*/
+        /*padding-left: 15px;*/
+        /*padding-right: 15px;*/
+    /*}*/
+    /*.tbl-btm {*/
+        /*padding-left: 140px;*/
+    /*}*/
+
+/*}*/
+
+/*@media only screen and (max-width: 412px) {*/
+    /*.tbl-btm {*/
+        /*padding-left: 140px;*/
+    /*}*/
+    /*.tbl-padding1 {*/
+        /*padding-top: 10px;*/
+        /*padding-right: 75px;*/
+    /*}*/
+
+/*}*/
+
+/*@media only screen and (max-width: 385px) {*/
+    /*.junior-size {*/
+        /*width: 100%;*/
+        /*border: 1px solid;*/
+        /*margin-left: 0px;*/
+    /*}*/
+    /*.txt-lft{*/
+        /*text-align: center;*/
+        /*padding-left: 15px;*/
+        /*padding-right: 15px;*/
+    /*}*/
+    /*.tbl-padding {*/
+        /*padding-top: 10px;*/
+        /*padding-right: 0px;*/
+        /*padding-left: 80px;*/
+    /*}*/
+
+    /*.tbl-padding1 {*/
+        /*padding-top: 10px;*/
+        /*padding-right: 80px;*/
+    /*}*/
+
+    /*.tbl-padding2 {*/
+        /*padding: 15px;*/
+        /*padding-left: 91px;*/
+    /*}*/
+
+    /*.tbl-brdr {*/
+        /*border: 0px solid #ddd !important;*/
+        /*margin-bottom: -5px;*/
+    /*}*/
+
+    /*.tbl-btm {*/
+        /*padding-left: 131px;*/
+    /*}*/
+    /*.tbl-mrgn1 {*/
+        /*margin-top: -13px;*/
+        /*padding-left: 4px;*/
+    /*}*/
+/*}*/
+/*@media only screen and (max-width: 321px) {*/
+    /*.junior-size {*/
+        /*width: 100%;*/
+        /*border: 1px solid;*/
+    /*}*/
+
+    /*.quantite-top {*/
+        /*margin-top: -35px !important;*/
+    /*}*/
+
+    /*.position {*/
+        /*margin-top: 10px;*/
+    /*}*/
+
+    /*.position2 {*/
+        /*left: 0px;*/
+    /*}*/
+
+    /*.position1 {*/
+        /*right: 0px;*/
+    /*}*/
+
+    /*.position3 {*/
+        /*margin-top: 0px;*/
+    /*}*/
+
+    /*.position4 {*/
+        /*right: 0px;*/
+    /*}*/
+    /*.tbl-padding {*/
+        /*padding-top: 10px;*/
+        /*padding-right: 0px;*/
+        /*padding-left: 65px;*/
+    /*}*/
+
+    /*.tbl-padding1 {*/
+        /*padding-top: 10px;*/
+        /*padding-right: 45px;*/
+    /*}*/
+
+    /*.tbl-padding2 {*/
+        /*padding: 15px;*/
+        /*padding-left: 80px;*/
+    /*}*/
+
+    /*.tbl-brdr {*/
+        /*border: 0px solid #ddd !important;*/
+        /*margin-bottom: -5px;*/
+    /*}*/
+
+    /*.btn-padding {*/
+        /*padding-top: 10px;*/
+    /*}*/
+
+    /*.price-padding {*/
+        /*margin-top: 0px !important;*/
+        /*margin-bottom: 0px !important;*/
+    /*}*/
+/*}*/

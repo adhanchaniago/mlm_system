@@ -1,0 +1,1 @@
+[13-Dec-2018 07:07:07 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/svjde7oj/public_html/mlm_system/app/Http/Controllers/companyController.php on line 60

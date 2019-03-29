@@ -1,0 +1,200 @@
+.btn-clr {
+    background-color: #43409F;
+    border: 0px !important;
+    width: 90px;
+    height: 34px;
+    color: white;
+}
+
+.active-btn
+{
+    background: #FF5722;
+    color: white;
+}
+.active-btn:hover
+{
+    background: #FF5722;
+    color: white;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+.card1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+.price {
+    color: grey;
+    font-size: 22px;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 6px;
+    color: white;
+    background-color: #FF5722;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 13px;
+}
+
+.card1 button {
+    border: none;
+    outline: 0;
+    padding: 16px;
+    color: white;
+    background-color: #FF5722;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 13px;
+}
+.card button:hover {
+    opacity: 0.7;
+}
+
+.card1 button:hover {
+    opacity: 0.7;
+}
+
+.starter {
+    background-color: #43409F;
+    color: white;
+}
+
+.starter-bsns {
+    background-color: #FF5722;
+    color: white;
+}
+
+.starter-middel1 {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.starter-middel2 {
+    background-color: #43409F;
+    color: white;
+}
+
+.name-padding {
+    padding: 20px 30px;
+}
+
+.name-padding1 {
+    padding: 30px 30px;
+}
+
+.rate-padding {
+    padding: 10px 15px;
+}
+
+.rate-outermrgn {
+    margin: 50px 20px;
+}
+
+.side-div-margin {
+    margin-top: 20px;
+}
+
+.junior-size {
+    width: 113%;
+    border: 1px solid;
+}
+
+.txt-lft {
+    text-align: left;
+    padding-left: 22px;
+}
+
+.txt-right {
+    text-align: right;
+}
+
+.middle-mrgn {
+    margin-left: 15px;
+}
+
+.quantite-top {
+    margin-top: 6px !important;
+}
+
+.position {
+    margin-top: 40px;
+}
+
+.position2 {
+    left: 20px;
+}
+
+.position1 {
+    right: 20px;
+}
+
+.position3 {
+    margin-top: 10px;
+}
+
+.position4 {
+    right: 130px;
+}
+
+.btn-clr1 {
+    background-color: #43409F;
+    border: 0px !important;
+    width: 79%;
+    height: 34px;
+    color: white;
+}
+
+.btn-clr1:hover {
+    background-color: #FF5722;
+}
+
+.tbl-padding {
+    padding-top: 10px;
+    padding-right: 30px;
+}
+
+.tbl-padding1 {
+    padding-top: 10px;
+}
+
+.tbl-padding2 {
+    padding: 15px;
+}
+
+.tbl-mrgn {
+    margin-top: -15px;
+}
+
+.tbl-mrgn1 {
+    margin-top: -2px;
+}
+
+.tbl-btm {
+    padding-left: 52px;
+}
+
+.tbl-brdr {
+    border: 0px solid #ddd !important;
+}
+
+.btn-padding {
+    padding: 0px;
+}
+
+.price-padding {
+    margin-top: 12px;
+}

@@ -1,0 +1,25 @@
+<?php
+
+return array (
+    'edit_campaign' => 'Edit Campaign',
+    'delete_campaign' => 'Delete Campaign',
+    'stats' => 'Stats',
+    'started' => 'Started',
+    'views' => 'Views',
+    'clicks' => 'Clicks',
+    'samy_bots' => 'Samy Bots',
+    'category' => 'Category',
+    'headline' => 'Headline',
+    'no_bots_available' => 'No bots available',
+    'launch' => 'Launch',
+    'close' => 'Close',
+    'yes' => 'Yes',
+    'no' => 'No',
+    'bots' => 'Bots',
+    'id' => 'ID',
+    'campaign' => 'Campaign',
+    'none' => 'none',
+    'link' => 'Link',
+    'title' => 'Title(won\'t show)',
+    'are_you_sure' => 'Are you sure!! You want to delete campaign?',
+);

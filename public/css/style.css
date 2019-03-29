@@ -1,0 +1,1802 @@
+/*----------------------------------MLM Home Page------------------------------------------------------*/
+/***************navigation bar***************/
+
+.navbar-nav {
+    font-size: 17px !important;
+}
+.navbar-left {
+    float: left;
+}
+.navbar {
+    position: fixed!important;
+    z-index: 1;
+    width: 100%!important;
+}
+.navbar-container{
+    margin-bottom: 56px;
+}
+.home-navigation:hover {
+    color: #ff5722 !important;
+}
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+    color: #ff5722 !important;
+    background-color: transparent;
+}
+.nav > li > a:active, .nav > li > a:focus {
+    color: #ff5722 !important;
+    background: #f7f7f7;
+}
+.navbar-default {
+    background-color: #43409f !important;
+    border-color: #43409f !important;
+    border-radius: 0px;
+    padding: 5px;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    background-color: #43409f;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    color: #ff5722;
+    background-color: #43409f;
+}
+.leftheader {
+    color: white;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+/******************navigation bar end*********************/
+/**************home page SECTION-1***********************/
+.section-1 {
+    background-image: url("../image/sb1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    color: white;
+}
+.main_text_section {
+    margin-top: 10%;
+    margin-bottom: 13%;
+    margin-left: 2%;
+}
+.main_heading {
+    font-size: 5.3rem;
+    letter-spacing: 3px;
+    line-height: 75px;
+}
+.main_texts {
+    font-size: 3.6rem;
+    letter-spacing: 2px;
+    line-height: 50px;
+}
+.heading {
+    font-size: 60px;
+    line-height:80px;
+}
+/**************home page SECTION-1 end*******************/
+/**************home page SECTION-2*******************/
+.section-2 {
+    background-image: url("../image/sb2.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    color: white;
+}
+.section-2 p {
+    font-size: 17px;
+}
+.marketing_area ul {
+    font-size: 17px;
+}
+.marketing_area {
+    margin-top: 5%;
+}
+.marketing_texts p {
+    margin-left: 25px;
+    font-size: 19px !important;
+    font-weight: 600;
+}
+.marketing_texts h4 {
+    margin-bottom: 5%;
+}
+.video_btn {
+    width: 100%;
+    margin-top:8%;
+    background-color: #ff5722;
+    border: 1px solid gray;
+    font-size: 23px;
+    color: white;
+    padding: 15px;
+}
+.home_video {
+    width: 100%;
+    height: 220px;
+}
+.textUl {
+    padding-left: 24px;
+    text-align: justify;
+    font-size: 18px;
+}
+.home-page-division {
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+.heading_division {
+    margin-left: 3px;
+    margin-bottom: 30px;
+}
+/****************home page SECTION-2 end*******************/
+/****************home page SECTION-3********************/
+.section-3 {
+    margin-bottom: 3%;
+}
+.section-3 p {
+    font-size: 17px;
+    color: black;
+}
+/***************home page SECTION-3 end******************/
+/***************home page CONTACT _US SECTION******************/
+.contact_section {
+    background-image: url("../image/02_about-us-1024x304.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 390px;
+    color: white;
+}
+.contact_input {
+
+    border-radius: 0;
+}
+.contact_section button {
+    background-color: #ff5722;
+    border: 1px solid #ff5722;
+    width: 100%;
+    /*height: 35px;*/
+    font-size: 18px;
+    padding:7px;
+}
+/*********home page CONTACT _US SECTION end**********/
+/*--------------------------------MLM Home Page end-----------------------------------------------/
+/*---------------------------------------WELCOME SCREEN-----------------------------------------*/
+.samyhome-row {
+    height: 150px;
+}
+.samyhome-welcome-text {
+    line-height: 120px;
+}
+.samhome-menu-div {
+    margin-bottom: 5%;
+}
+.main-home-head {
+    height: 35px;
+    background-color: #43409f;
+}
+.head-foot-text {
+    color: white;
+    line-height: 35px;
+    margin-top: 0;
+}
+.samyhome-image {
+    width: 100%;
+    /*width: 150px;*/
+    /*height: 150px;*/
+    height: 200px;
+    object-fit: cover;
+}
+.main-home-foot {
+    height: 35px;
+    background-color: #ff5722;
+}
+.main-home-sub {
+    height: 35px;
+    background-color: #858585;
+}
+.samyhome-row-bottom {
+    height: 60px;
+}
+.space-tr
+{
+    height: 12px;
+}
+/*----------------------------------------WELCOME SCREEN END---------------------------------*/
+/*-------------------------------ADMIN PAGE---------------------------------------------------/
+/********************ADMIN SIDEBAR MENU********************/
+.home-navigation-link {
+    line-height: 70px;
+    padding: 30px;
+    text-align: left;
+}
+.active {
+    color: #ff5722 !important;
+}
+.active:hover {
+    color: #ff5722;
+}
+.type-none {
+    list-style-type: none;
+    color: white;
+    text-decoration: none !important;
+}
+.type-none:hover {
+    list-style-type: none;
+    color: white;
+    text-decoration: none !important;
+}
+/****************ADMIN SIDEBAR MENU END***************/
+/*****************ADMIN MY STATS*****************/
+.stats_section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stats_section_headings
+{
+    color: #444444;
+}
+.stats_section_headings:hover
+{
+    color: #444444;
+}
+.stats_section1 p {
+    font-size: 36px;
+}
+.admin-head {
+    margin-top: 3%;
+}
+.stats_section2 {
+    border: 2px solid #ff5722;
+    width: 138px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    padding: 35px;
+    height: 135px;
+    font-size: 39px;
+}
+.section2_headings {
+    font-size: 25px;
+}
+.section2_payment {
+    border: 2px solid #ff5722;
+    width: 138px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    height: 135px;
+    font-size: 22px;
+    padding-top: 43px;
+}
+.videodivision {
+    margin-bottom: 4%;
+}
+/******************ADMIN MY STATS end***************/
+/******************ADMIN MY LEVELS*****************/
+.levelsvideo {
+    margin-top: 20%;
+}
+.levels-table {
+    width: 100%;
+    margin-top: 10%;
+}
+.levels-td-50p {
+    width: 50%;
+}
+.levels-td-30p {
+    width: 30%;
+}
+.btn-primaryy {
+    background: white;
+    color: #ff5722;
+    border-color: #171f5e;
+    border-radius: 0 !important;
+}
+.btn-primaryy:hover {
+    background: white;
+    color: #ff5722;
+    border-color: #171f5e;
+}
+.btn-primaryy:focus {
+    background: white;
+    color: #ff5722;
+    border-color: #171f5e;
+    border-radius: 0;
+}
+/******************ADMIN MY LEVELS END*************/
+/*******************ADMIN MY RANKS******************/
+.rank-btn {
+    margin: 6%;
+    width: 50%;
+}
+.ranksavebtn {
+    margin-top: 7px;
+    margin-left: 40px;
+}
+.rankdivision {
+    margin-bottom: 15px;
+}
+
+.rank-image-div {
+    height: 190px;
+}
+.rank-image {
+    width: 100%;
+    height: 100%;
+    border: 1px solid lightgray;
+    object-fit:contain;
+}
+.rank_margin {
+    margin-bottom: 15px;
+}
+.rank-edit-btn {
+    margin-top: 5%;
+}
+.table-img {
+    width: 100px;
+    height: 100px;
+    border: 1px solid lightgrey;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+/*******************ADMIN MY RANKS END*************/
+/*******************ADMIN MY PAYOUTS PAGE*************/
+.payouts {
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+.payouts span {
+    color: black;
+    font-weight: 600;
+    font-size: smaller;
+}
+.keys {
+    border-bottom: 1px solid gainsboro;
+}
+.vieweditbtn {
+    border: 1px solid #8f8dc6;
+    background-color: white;
+    width: 125px;
+    height: 30px;
+    color: #ff5722;
+}
+.viewtablebtn {
+    width: 100% !important;
+    margin-bottom: 4px;
+    font-size: 13px;
+}
+.payouts p {
+    font-size: 20px;
+}
+.payoutbtn {
+    float: right;
+    margin-top: 10%;
+    color: white;
+    background-color: #ff5722;
+    border: 1px solid gray;
+    font-size: 18px;
+    padding: 7px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.tabletr {
+    width: 180px;
+}
+.tabletr2 {
+    width: 250px;
+}
+.payout_history {
+    border: 1px solid gainsboro;
+    padding: 6px;
+    overflow-x: auto;
+}
+.payout_history h4 {
+    font-weight: 600;
+}
+.tablebody {
+    max-height: 202px;
+    overflow-y: scroll;
+    display: -webkit-box;
+}
+.editmodelbody {
+    margin-left: 9%;
+    margin-right: 9%;
+    text-align: justify;
+}
+.modelbtn {
+    background-color: #ff5722;
+    border: 1px solid gray;
+    width: 100px;
+    height: 35px;
+    color: white;
+    font-size: 23px;
+}
+.btn-edit-payment {
+    width: 100%;
+    float: right;
+}
+.editmodel {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: whitesmoke;
+}
+.editmodelbody {
+    margin-left: 9%;
+    margin-right: 9%;
+    text-align: justify;
+}
+.editmodelbody p {
+    font-size: 14px;
+    margin-left: 20px;
+}
+.editmodelbody label {
+    color: black;
+    font-weight: 600;
+    font-size: 17px;
+}
+.editmodelbody span {
+    font-size: 15px;
+    float: right;
+}
+.totalpayouts {
+    margin-top: 10%;
+}
+.affiliate-sales {
+    text-align: center;
+    margin-top: 5%;
+    font-size: 16px;
+    line-height: 200%;
+    overflow: auto;
+}
+.payout-breakdown-body
+{
+    overflow: auto;
+}
+
+#affiliate-table-container
+{
+    /*max-height: 510px;*/
+}
+
+
+/*******************ADMIN MY PAYOUTS PAGE END*************/
+/*******************ADMIN MY AFFILIATE PAGE*************/
+.affiliate-container {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.affiliatedivision {
+    border-right: 1px solid darkgrey;
+}
+.btn-new-affiliate {
+    margin-bottom: 5%;
+}
+#arrow-down {
+    display: none;
+}
+#affiliate-details-container {
+    height: 50%;
+    overflow: auto;
+}
+.img-affiliate {
+    width: 75px;
+    height: 75px;
+}
+.affiliate-table-name {
+    font-size: 15px;
+    font-weight: 600;
+}
+.affiliate-other-details {
+    font-size: 13px;
+}
+.affiliate-table-btn {
+    width: 100%;
+    margin-bottom: 6px;
+}
+/*section {*/
+/*display: flex;*/
+/*justify-content: center;*/
+/*flex-direction: column;*/
+/*padding: 50px 0;*/
+/*position: relative;*/
+/*}*/
+section .github-badge {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/*section h1 {*/
+/*text-align: center;*/
+/*margin-bottom: 70px;*/
+/*}*/
+section .hv-container {
+    flex-grow: 1;
+    overflow: auto;
+    justify-content: center;
+}
+.hv-wrapper {
+    display: flex;
+}
+.hv-wrapper .hv-item {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.hv-wrapper .hv-item .hv-item-parent {
+    margin-bottom: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.hv-wrapper .hv-item .hv-item-parent:after {
+    position: absolute;
+    content: '';
+    width: 2px;
+    height: 25px;
+    bottom: 0;
+    left: 50%;
+    background-color: black;
+    transform: translateY(100%);
+}
+.hv-wrapper .hv-item .hv-item-children {
+    display: flex;
+    justify-content: center;
+}
+.hv-wrapper .hv-item .hv-item-children .hv-item-child {
+    padding: 0 15px;
+    position: relative;
+}
+.hv-wrapper .hv-item .hv-item-children .hv-item-child:before, .hv-wrapper .hv-item .hv-item-children .hv-item-child:not(:only-child):after {
+    content: '';
+    position: absolute;
+    background-color: black;
+    left: 0;
+}
+.hv-wrapper .hv-item .hv-item-children .hv-item-child:before {
+    left: 50%;
+    top: 0;
+    transform: translateY(-100%);
+    width: 2px;
+    height: 25px;
+}
+.hv-wrapper .hv-item .hv-item-children .hv-item-child:after {
+    top: -25px;
+    transform: translateY(-100%);
+    height: 2px;
+    width: 100%;
+}
+.hv-wrapper .hv-item .hv-item-children .hv-item-child:first-child:after {
+    left: 50%;
+    width: 50%;
+}
+.hv-wrapper .hv-item .hv-item-children .hv-item-child:last-child:after {
+    width: calc(50% + 1px);
+}
+.hv-item-parent p {
+    font-weight: bold;
+    color: #DE5454;
+}
+.management-hierarchy > h1 {
+    color: #FFF;
+}
+.management-hierarchy .person {
+    text-align: center;
+}
+.management-hierarchy .person > img {
+    height: 80px;
+    width: 80px;
+    border: 5px solid #FFF;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #fff;
+}
+.management-hierarchy .person > p.name {
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    color: black;
+    margin: 0;
+    position: relative;
+}
+.management-hierarchy .person > p.name b {
+    color: rgba(59, 170, 157, 0.5);
+}
+.management-hierarchy .person > p.name:before {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 8px;
+    background-color: #fff;
+    left: 50%;
+    top: 0;
+    transform: translateY(-100%);
+}
+.basic-style {
+    background-color: #EFE6E2;
+}
+.basic-style > h1 {
+    color: #ac2222;
+}
+p.simple-card {
+    margin: 0;
+    background-color: #fff;
+    color: #DE5454;
+    padding: 30px;
+    border-radius: 7px;
+    min-width: 100px;
+    text-align: center;
+    box-shadow: 0 3px 6px rgba(204, 131, 103, 0.22);
+}
+.modal.fade:not(.in).left .modal-dialog {
+    -webkit-transform: translate3d(-25%, 0, 0);
+    transform: translate3d(-25%, 0, 0);
+}
+/*******************ADMIN MY AFFILIATE PAGE END*************/
+/************************ADMIN ACCOUNT PAGE******************/
+.admin_account-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.admin_account-style p {
+    color: black;
+}
+#cardNo, #ExpiryMonth, #ExpiryYear, #cvv_Number {
+    display: none;
+}
+.activeBtn {
+    cursor: no-drop !important;
+}
+
+::placeholder {
+    color: gray !important;
+    font-size: 17px;
+}
+#invalidPhone {
+    display: none;
+    font-size: 14px;
+}
+.cardnumbr {
+    color: black !important;
+    font-size: small;
+}
+.admin_account {
+    margin-top: 5%;
+}
+.admin-account-button {
+    border: 1px solid #43409f;
+    background-color: white;
+    color: #ff5722;
+    width: 100%;
+    font-size: 12px;
+    padding: 3px;
+}
+.shipping_name {
+    font-size: 17px;
+    color: gray !important;
+}
+/*.admin_account h4 {*/
+/*color: gray;*/
+/*font-weight: 700;*/
+/*}*/
+.shipping_check {
+    margin: 20px 0px 0px !important;
+}
+.zeropadding {
+    padding: 0;
+}
+.name_heading {
+    font-size: small;
+}
+.name_discrip {
+    font-size: smaller;
+    line-height: 1;
+    padding-left: 7px;
+}
+.refreshicon {
+    float: right;
+    color: black;
+}
+.refreshicon1 {
+    float: right;
+    color: red;
+}
+.account_section2 {
+    margin-bottom: 3%;
+}
+.nav-row {
+    background-color: #43409f !important;;
+}
+.trashicon {
+    font-size: 25px !important;
+}
+.default_active {
+    background-color: #43409f !important;
+    color: white !important;
+}
+.navbar-collapse {
+    background-color: #43409f !important;;
+}
+.rightalign {
+    float: right;
+}
+.profile-table-img {
+    width: 150px;
+    height: 150px;
+}
+.btn-save-profile {
+    background: #ff5722;
+    color: white;
+    border: 1px solid lightgray;
+    width: 100%;
+    border-radius: 0;
+    font-size: 18px;
+}
+.btn-save-profile:hover {
+    background: #ff5722;
+    color: white;
+    border: 1px solid gray;
+    width: 100%;
+    border-radius: 0;
+}
+.trashbtnstyle {
+    color: black;
+    padding: 0;
+    text-align: right;
+}
+.trashbtnstyle:hover {
+    color: black;
+    padding: 0;
+    text-align: right;
+}
+.trashbtnstyle:focus {
+    color: black;
+    padding: 0;
+    text-align: right;
+}
+/*******************admin account page end********************/
+/*------------------------------ADMIN PAGE END---------------------------------------------*/
+
+/*--------------------------------SAMY AFFILIATES PAGE---------------------------------------*/
+/*********AFFILIATE TOP BAR***********/
+.section1_logo {
+    margin-top: 6%;
+}
+.section-image {
+    height: 150px;
+    width: 150px;
+}
+.home_heading {
+    font-weight: 900;
+}
+/*********AFFILIATE TOP BAR END***********/
+/*********AFFILIATE SIDE-BAR**********/
+.affiliate_sidebar {
+    text-align: center;
+    color: gray;
+    margin-top: 5%;
+}
+.affiliate_sidebar img {
+    /* width: 135px; */
+    width: 100%;
+}
+.affiliate_sidebar span {
+    font-weight: 600;
+}
+/*********AFFILIATE SIDE-BAR END**********/
+/*********AFFILIATE HOME PAGE*********/
+.affiliate-home-heading{
+    margin-bottom: 5%;
+}
+.affiliate-stats {
+    color: black;
+}
+.affiliate-stats:hover {
+    color: black;
+    cursor: pointer
+}
+.lifetime {
+    color: #ff5722;
+}
+.lifetime:hover {
+    color: #ff5722;
+}
+.section2_numbers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.affiliate_Number {
+    border: 2px solid #ff5722;
+    width: 120px;
+    border-radius: 50%;
+    font-size: 30px;
+    height: 120px;
+    text-align: center;
+    padding: 32px;
+}
+.affiliate_revenue {
+    border: 2px solid #ff5722;
+    width: 120px;
+    border-radius: 50%;
+    font-size: 20px;
+    height: 120px;
+    text-align: center;
+    padding: 40px 0px 0px 6px;
+}
+.grid_system {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+}
+.affiliate-link-text {
+    color: #333333;
+}
+.affiliate-link-text:hover {
+    color: #333333;
+    text-decoration: underline;
+}
+/*********AFFILIATE HOME PAGE END*********/
+/******AFFILIATE MARKETING HELP PAGE*****/
+.marketing_section {
+    margin-top: 3%;
+}
+.marketing_video {
+    width: 100%;
+    height: 220px;
+}
+.marketing_heading {
+    font-weight: 700;
+}
+/******AFFILIATE MARKETING HELP PAGE END*****/
+/**********AFFILIATE MY SALES PAGE*********/
+.sales_btn {
+    color: white;
+    font-size: 23px;
+    background-color: #ff5722;
+    border: 1px solid lightgray;
+    font-weight: 700;
+    padding: 10px;
+}
+.link_field {
+    width: 100%;
+    height: 50px;
+    font-size: 23px;
+    font-weight: 700;
+}
+.copybtn {
+    background-color: #ff5722;
+    border: 1px solid lightgray;
+    color: white;
+    font-size: 25px;
+    width: 100%;
+    padding: 6px;
+}
+.type-none-home {
+    color: white;
+}
+
+.type-none-home:hover {
+    color: white;
+}
+.type-none-admin-home {
+    color: black;
+    cursor: pointer;
+}
+.type-none-admin-home:hover {
+    color: black;
+}
+/*sales model*/
+.salesmodel {
+    width: 33%;
+}
+.btn-save-level {
+    color: white;
+    text-align: center;
+    background: #ff5722;
+    font-size: 17px;
+    border: 1px solid gray;
+    padding: 10px;
+    width: 100%;
+}
+.btn-save-level:hover {
+    color: white;
+    text-align: center;
+    background: #ff5722;
+}
+.btn-save-level:focus {
+    color: white;
+    border-color: gray;
+    text-align: center;
+    background: #ff5722;
+}
+.salestable button {
+    color: #ff5722;
+    background-color: white;
+    border: 1px solid #43409f;
+}
+.salestablebtn1 {
+    float: right;
+}
+.salestable td {
+    width: 46%;
+}
+.salestable table {
+    margin-top: 10%;
+}
+.btn-save {
+    margin-top: 5%;
+    background: #ff5722;
+    color: white;
+    border: 1px solid lightgray;
+    width: 25%;
+    border-radius: 0;
+    font-size: 18px;
+}
+.btn-save:hover {
+    background: #ff5722;
+    color: white;
+    border: 1px solid lightgray;
+}
+.btn-save:focus {
+    background: #ff5722;
+    color: white;
+    border: 1px solid lightgray;
+}
+.btn-save-affiliate
+{
+    background: #ff5722;
+    color: white;
+    border: 1px solid lightgray;
+    width: 100px;
+    border-radius: 0;
+    font-size: 18px;
+    margin-left:-90%;
+}
+.btn-save-affiliate:hover {
+    background: #ff5722;
+    color: white;
+    border: 1px solid lightgray;
+}
+.btn-save-affiliate:focus {
+    background: #ff5722;
+    color: white;
+    border: 1px solid lightgray;
+}
+/*sales model end*/
+/**********AFFILIATE MY SALES PAGE END*********/
+/**********AFFILIATE MY AFFILIATE PAGE**********/
+.affiliate_img {
+    width: 80px;
+    border-radius: 50%;
+}
+.myaffiliate_image {
+    width: 20%;
+}
+.image-affiliate {
+    height: 80px;
+    width: 80px;
+}
+/**********AFFILIATE MY AFFILIATE PAGE END**********/
+/**********AFFILIATE ACCOUNT PAGE***********/
+.account_division {
+    margin-top: 5%;
+    border-top: 1px solid #ff5722;
+}
+.account_division h4 {
+    color: gray;
+    font-weight: 700;
+}
+.acc_info {
+    margin-top: 5%;
+    color: gray;
+}
+.accountbtn {
+    border: 1px solid lightgray;
+    background-color: #ff5722;
+    color: white;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 7px;
+}
+.accinfoarea {
+    width: 100%
+}
+/*account model*/
+.account-model {
+    border: 1px solid #ff5722;
+    border-radius: 0;
+}
+.tableexport {
+    width: 100%;
+    font-size: 12px;
+    border: 1px solid #43409f;
+    background-color: white;
+    color: #ff5722;
+    margin-bottom: 4%;
+}
+/*account model end*/
+/**********AFFILIATE ACCOUNT PAGE END***********/
+/*------------------------------------SAMY AFFILIATES PAGE END------------------------------*/
+/*----------------------------------Login Form and Register---------------------------------*/
+.login-page {
+    background-color: white !important;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0px;
+}
+.form-control-code {
+    width: 30%;
+}
+.form-control-phone {
+    width: 70%;
+}
+.LogoImage {
+    height: 100px;
+    width: 100px;
+}
+.login-link {
+    font-size: 12px;
+    color: black;
+}
+.verification-row {
+    height: 30.45%;
+}
+.email-verification {
+    background: #fff0e5;
+    height: 115px;
+    padding: 25px;
+}
+/*-------------------------------Login Form and Register end-------------------------------*/
+/*---------------------------------------register page------------------------------------*/
+.registericon {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: 100px;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    border-radius: 50%;
+    height: 100px;
+}
+.register-form-icons{
+    margin-top: 10px;
+}
+/*-------------------------------register page end---------------------------------------------*/
+/*-----------------------------MODEL STYLES-----------------------------------------------------*/
+.model_clr {
+    border: 1px solid #ff5722;
+}
+.modal-header {
+    border-bottom: none !important;
+    padding: 15px;
+    border-bottom: none;
+}
+.modal-header .close {
+    margin-top: -2px;
+    color: #ff5722 !important;
+    opacity: 1 !important;
+}
+.modal-title {
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+}
+.add-level-content {
+    border: 1px solid #ff5722;
+    margin-left: auto;
+    margin-right: auto;
+}
+.modal-footer {
+    border-top: none !important;
+}
+.add-level-modal {
+    margin-top: 10%;
+}
+/*-----------------------------------MODEL STYLES end--------------------------------------*/
+/*--------------------------------------FOOTER--------------------------------------------*/
+.footer {
+    text-align: center;
+    color: #838383;
+    padding: 15px;
+}
+/*---------------------------------FOOTER END-------------------------------------------*/
+/*-------------------------------------INFYOM/YAJRA DESIGN-----------------------------------*/
+.skin-blue .wrapper, .skin-blue .main-sidebar, .skin-blue .left-side {
+    background-color: #026680;
+    background-image: url(http://34.226.22.39/mlm_system/public/samyboat/rocket.png);
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.content-wrapper {
+    min-height: 100%;
+    z-index: 800;
+    background-size: cover;
+    background-image: url(http://34.226.22.39/mlm_system/public/samyboat/slider-5.png);
+}
+.skin-blue .content-header {
+    color: black;
+}
+.skin-blue .sidebar-menu .treeview-menu > li.active > a, .skin-blue .sidebar-menu .treeview-menu > li > a:hover {
+    color: black;
+}
+.skin-blue .sidebar-menu .treeview-menu > li {
+    background-color: #148faf;
+}
+.skin-blue .sidebar-menu > li:hover > a, .skin-blue .sidebar-menu > li.active > a, .skin-blue .sidebar-menu > li.menu-open > a {
+    background-color: #0e2040;
+}
+.skin-blue .sidebar-menu .treeview-menu > li > a {
+    color: white;
+}
+.skin-blue .sidebar-menu .treeview-menu > li.active, .skin-blue .sidebar-menu .treeview-menu > li:hover {
+    background: #3ab4d4;
+}
+.treeview-menu > li {
+    height: 40px;
+}
+.dataTable > thead {
+    display: none;
+}
+table.dataTable tbody tr {
+    background-color: #0e2040 !important;
+    color: white;
+}
+.rank-img1 {
+    width: 50px;
+    height: 50px;
+}
+.box.box-primary {
+    color: white;
+    background-color: #026680;
+}
+.skin-blue .main-header .navbar, .skin-blue .main-header .logo, .main-footer {
+    background-color: #0e2040;
+}
+.dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_filter, .dataTables_wrapper .dataTables_info, .dataTables_wrapper .dataTables_processing, .dataTables_wrapper .dataTables_paginate {
+    color: white !important;
+}
+.skin-blue .sidebar-menu > li > .treeview-menu {
+    background-color: #0e2040;
+}
+.pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
+    background-color: #0e2040;
+}
+.btn-primary {
+    background-color: #026680;
+    color: white;
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover
+{
+    background-color: #FF5722 !important;
+    border-color: #43409f !important;
+}
+/*-----------------------------------INFYOM/YAJRA Design end--------------------------------*/
+
+/*----------------------------------PAYMENT BACKEND-----------------------------------*/
+.LoaderBalls {
+    width: 90px;
+    justify-content: space-between;
+    opacity: 1 !important;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    display: none;
+}
+.LoaderBalls__item {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #00f1ca;
+}
+.LoaderBalls__item:nth-child(1) {
+    animation: bouncing 0.4s alternate infinite cubic-bezier(0.6, 0.05, 0.15, 0.95);
+}
+.LoaderBalls__item:nth-child(2) {
+    animation: bouncing 0.4s 0.1s alternate infinite cubic-bezier(0.6, 0.05, 0.15, 0.95) backwards;
+}
+.LoaderBalls__item:nth-child(3) {
+    animation: bouncing 0.4s 0.2s alternate infinite cubic-bezier(0.6, 0.05, 0.15, 0.95) backwards;
+}
+@keyframes bouncing {
+    0% {
+        transform: translate3d(0, 10px, 0) scale(1.2, 0.85);
+    }
+    100% {
+        transform: translate3d(0, -20px, 0) scale(0.9, 1.1);
+    }
+}
+/*----------------------------------PAYMENT BACKEND END--------------------------------*/
+/*------------------------------MEDIA QUERIES------------------------------------------*/
+@media only screen and (max-width: 768px) {
+    .editmodel {
+        width: 100% !important;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30%;
+    }
+    .LoaderBalls
+    {
+        left: 40% !important;
+    }
+    #affiliate-table-container
+    {
+        overflow: auto !important;
+    }
+    .btn-save-affiliate
+    {
+        margin-left: 0 !important;
+    }
+    .terms_condition1 {
+        text-align: center;
+        margin-left: 0 !important;
+    }
+    .main_text_section {
+        margin-top: 0;
+        margin-left: 0 !important;
+        margin-bottom: 0px !important;
+        padding-bottom: 20px;
+    }
+    .contact_section button {
+        margin-top: -56px;
+    }
+    .levelsvideo {
+        margin-top:0%!important;
+        margin-bottom: 7%!important;
+    }
+    .proceedbtn
+    {
+        margin-top: 0 !important;
+    }
+    .terms_condition
+    {
+        text-align: center !important;
+    }
+}
+@media (min-width: 992px) {
+    .contact_section button {
+        margin-top: -56px;
+    }
+
+}
+@media (max-width: 768px) {
+    .stats_section1 p {
+        font-size: 25px;
+    }
+    .payoutbtn {
+        float: none !important;
+        margin-bottom: 25px;
+    }
+    .mediapadding {
+        padding: 0;
+    }
+}
+@media (min-width: 768px)
+{
+    .navbar-right
+    {
+        float: right!important;
+        margin-right:0px !important;
+    }
+}
+/*-------------------------------MEDIA QUERIES end----------------------------------*/
+
+/*-------------------------------------------other style*******************************/
+/*.sliderText {*/
+/*vertical-align: middle;*/
+/*}*/
+/*.home-admin {*/
+/*border-radius: 50%;*/
+/*margin: 5%;*/
+/*border: 4px solid #ff5722;*/
+/*height: 170px;*/
+/*}*/
+/*.admin-row {*/
+/*margin-right: -15px;*/
+/*margin-left: -15px;*/
+/*margin-top: 5%;*/
+/*}*/
+/*.admin-text {*/
+/*width: 60%;*/
+/*position: absolute;*/
+/*top: 105%;*/
+/*font-size: 20px;*/
+/*font-weight: 700;*/
+/*text-align: center;*/
+/*margin-left: 12%;*/
+/*}*/
+/*.admin-center-text {*/
+/*position: absolute;*/
+/*font-size: 20px;*/
+/*font-weight: 700;*/
+/*text-align: center;*/
+/*top: 43%;*/
+/*width: 72%;*/
+/*}*/
+/*.video-row {*/
+/*margin-right: -15px;*/
+/*margin-left: -15px;*/
+/*margin-top: 5%;*/
+/*}*/
+/*.admin-video {*/
+/*position: absolute;*/
+/*top: 70px;*/
+/*left: 18%;*/
+/*}*/
+/*.video-frame {*/
+/*width: 125%;*/
+/*height: 30%;*/
+/*}*/
+/*.div-video-frame {*/
+/*width: 400px;*/
+/*height: 225px;*/
+/*margin-top: 15%;*/
+/*}*/
+.level-button {
+    margin-top: 20%;
+}
+.height-row {
+    height: 20%;
+}
+.form-no-border {
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid;
+}
+
+.rank-display-div {
+    margin-bottom: 5%;
+}
+.alert-danger {
+    color: #ffffff !important;
+    background-color: #ce1b1b !important;
+    border-color: #ebccd1 !important;
+}
+.alert-success {
+    color: #ffffff !important;
+    background-color: darkgreen !important;
+    border-color: #d6e9c6 !important;
+}
+.no-border {
+    border: none;
+    border-bottom: 1px solid;
+    border-radius: 0;
+}
+.no-border:hover {
+    border: none;
+    border-bottom: 1px solid;
+    border-radius: 0;
+}
+.no-border:focus {
+    border: none;
+    border-bottom: 1px solid;
+    border-radius: 0;
+}
+.add-rank-modal {
+    margin-top: 10%;
+}
+.edit-rank-modal {
+    margin-top: 5%;
+}
+.affiliate-table-details {
+    margin-left: 10px;
+    width: 300px;
+    text-align: left;
+}
+.affiliate-rank-detauils {
+    text-align: center;
+    width: 130px;
+}
+.affiliate-payout-details {
+    text-align: center;
+    width: 130px;
+}
+.affiliate-table-row {
+    margin-bottom: 10px;
+}
+.no-affiliate-data {
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+.image_style {
+    border-bottom: none;
+    margin-top: 7px;
+    margin-bottom: 15px;
+}
+.edit-image {
+    width: 75px;
+    height: 75px;
+}
+.affiliate-terms {
+    color: #ff5722;
+}
+.affiliate-terms:hover {
+    color: #ff5722;
+    text-decoration: underline;
+}
+.affiliate-terms:focus {
+    color: #ff5722;
+    text-decoration: none !important;
+}
+
+.hun {
+    width: 100%
+}
+.twen {
+    width: 20%
+}
+.five {
+    width: 5%
+}
+.ten {
+    width: 10%
+}
+.company-details {
+    border: 0;
+    border-top: 1px solid grey;
+}
+
+.smtp-text {
+    font-size: smaller;
+}
+
+.help-block {
+    color: red !important;
+}
+.home-admin {
+    border-radius: 50%;
+    margin: 5%;
+    border: 4px solid #ff5722;
+    height: 170px;
+}
+.admin-row {
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-top: 5%;
+}
+.admin-text {
+    width: 60%;
+    position: absolute;
+    top: 105%;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 12%;
+}
+.admin-center-text {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    top: 43%;
+    width: 72%;
+}
+/*.video-row {              */
+/*margin-right: -15px;*/
+/*margin-left: -15px;*/
+/*margin-top: 5%;*/
+/*}*/
+/*.admin-video {*/
+/*position: absolute;*/
+/*top: 70px;*/
+/*left: 18%;*/
+/*}*/
+/*.video-frame {*/
+/*width: 125%;*/
+/*height: 30%;*/
+/*}*/
+/*.div-video-frame {*/
+/*width: 400px;*/
+/*height: 225px;*/
+/*margin-top: 15%;*/
+/*}*/
+/*.level-button {*/
+/*margin-top: 20%;*/
+/*}*/
+/*.height-row {*/
+/*height: 20%;*/
+/*}*/
+/*.form-no-border {*/
+/*width: 100%;*/
+/*border: 0;*/
+/*border-bottom: 2px solid;*/
+/*}*/
+
+.edit-image
+{
+    height: 75px;
+    width: 75px;
+}
+.samy_btn_active{
+    background-color: #ff5722 !important;
+    border: 1px solid lightgray !important;
+}
+.plans_toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.plans_button {
+    width: 100%;
+    background-color: #43409f;
+    color: white;
+    border: 1px solid gray;
+    padding: 3px;
+    font-size: large;
+    margin-bottom: 7px;
+}
+
+.plans_zero_padding {
+    padding: 0;
+}
+
+.value-button {
+    display: inline-block;
+}
+
+.value-button:hover {
+    cursor: pointer;
+}
+
+form #decrease {
+    margin-right: -5px;
+    border-radius: 8px 0 0 8px;
+    font-size: 18px;
+}
+
+form #increase {
+    margin-left: -4px;
+    border-radius: 0 8px 8px 0;
+    font-size: 18px;
+}
+
+input.number {
+    text-align: center;
+    border: none;
+    width: 40px;
+    height: 40px;
+    /* font-weight: bold; */
+    font-size: 18px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.plans_discription {
+    font-size: smaller;
+    text-align: left;
+}
+
+.plans_division {
+    margin-top: 20px;
+}
+
+.plans_total_division {
+    /*margin-top: 15%;*/
+}
+
+.plans_images {
+    width: 178px;
+    border: 1px solid gainsboro;
+    height: 170px;
+}
+
+.plans_float_align {
+    float: right;
+}
+
+.plans_table {
+    width: 94%;
+}
+
+.plans_order-button {
+    width: 100%;
+    background-color: #ff5722;
+    border: 1px solid lightgray;
+    color: white;
+    font-size: x-large;
+    padding: 7px;
+    margin-top: 10px;
+}
+.plans_form{
+    margin-top: -9px;
+
+}
+.plans_button_padding{
+    padding: 1px;
+}
+.company-ship-details
+{
+    margin-bottom: 5%;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover
+{
+    color: white;
+    background-color: #43409f;
+}
+.navbar-nav>li>.dropdown-menu
+{
+    color: white;
+    background-color: #43409f;
+}
+.dropdown-menu>li>a
+{
+    color: white;
+}
+.dropdown-menu>li>a:hover
+{
+    background-color: #0000cc;
+    color: white;
+}
+.table-responsive-table
+{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.table-responsive
+{
+    border: 1px solid lightgray;
+}
+.app-nav
+{
+    position: relative !important;
+    width: auto !important;
+}
+
+
+/*email verification,domain and suspend page*/
+.verify-email-image{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+.verify-email-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.table-payout
+{
+    line-height: 30px;
+}
+.proceedBtn
+{
+    background: #ff5722;
+    color: #fff;
+    border: 1px solid gray;
+}
+.proceedBtn:hover
+{
+    color: #fff;
+}
+.proceedBtn:focus
+{
+    color: #fff;
+}
+.terms_condition
+{
+    color: black;
+    line-height: 300%;
+}
+.condition_terms
+{
+    color: #ff5722;
+}
+.condition_terms:hover
+{
+    color: #ff5722;
+}
+.condition_terms:focus
+{
+    color: #ff5722;
+}
+.terms_condition1 {
+    color: black;
+    line-height: 300%;
+    margin-left: -2%;
+}
+.terms-condition-text
+{
+    text-align: justify;
+}
+.terms-condition-header
+{
+    margin-top: 10% !important;
+    margin-bottom: 5% !important;
+}
+/*email verification ,domain and suspend page end*/
+/******************************************Register Page for Superadmin********************************************/
+.register-page
+{
+    height: auto;
+    min-height: 100%;
+}
+.login-box, .register-box {
+    width: 360px;
+    margin: 10% auto;
+    padding-top: 60px;
+}
+.login-box-body, .register-box-body {
+    background: #fff;
+    padding: 20px;
+    border-top: 0;
+    color: #666;
+}
+.register-page {
+    background: #ffffff;
+}
+.header-container-fluid
+{
+    margin-bottom: 60px;
+}
+.sales-modal
+{
+    max-height: 70%;
+    overflow: auto;
+}
+.switch_on {
+    padding: 2px 12px;
+    border-radius: 30px;
+    border: 1px solid transparent;
+    color: white;
+    background-color: green;
+}
+.switch_on:hover
+{
+    color: white;
+    background-color: green;
+}
+.switch_on:focus
+{
+    color: white;
+    background-color: green;
+}
+.switch_off {
+    padding: 2px 12px;
+    border-radius: 30px;
+    border: 1px solid transparent;
+    color: white;
+    background-color: #de333c;
+}
+.switch_off:hover
+{
+    color: white;
+    background-color: #de333c;
+}
+.switch_off:focus
+{
+    color: white;
+    background-color: #de333c;
+}

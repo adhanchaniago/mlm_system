@@ -1,0 +1,224 @@
+
+@media only screen and (max-width: 568px)
+{
+    .section-2 {
+        height: 860px;
+        margin-top:-7%;
+    }
+    .section-1 {
+        width: 100%;
+        height: 230px;
+        margin-top: -12%;
+    }
+    .stats_section1 p{
+        font-size:25px;
+    }
+    .payoutbtn {
+        float:none!important;
+        margin-bottom: 25px;
+    }
+    .mediapadding{
+        padding: 0;
+    }
+    .main_heading {
+        font-size: 25px;
+        letter-spacing: 0px;
+        line-height: 35px;
+        padding-top: 35px;
+    }
+    .main_texts{
+        font-size: 18px;
+        letter-spacing: 0px;
+        line-height: 29px;
+    }
+    .text-center {
+        text-align: center;
+        font-size: 30px;
+        padding-top: 10px;
+    }
+    .marketing_area ul {
+        font-size: 17px;
+        padding: 0px;
+        text-align: justify;
+    }
+    .MarketText
+    {
+        width: 315px;
+        margin-left: -15%;
+    }
+}
+@media only screen and (max-width: 667px)
+{
+    .MarketText
+    {
+        width: 315px;
+        margin-left: -15%;
+    }
+}
+@media only screen and (max-width: 731px)
+{
+    .section-2 {
+        height: 855px;
+        margin-top:-7%;
+    }
+    .section-1 {
+        width: 100%;
+        height: 230px;
+        margin-top: -9%;
+    }
+    .stats_section1 p{
+        font-size:25px;
+    }
+    .payoutbtn {
+        float:none!important;
+        margin-bottom: 25px;
+    }
+    .mediapadding{
+        padding: 0;
+    }
+    .main_heading {
+        font-size: 25px;
+        letter-spacing: 0px;
+        line-height: 35px;
+        padding-top: 35px;
+    }
+    .main_texts{
+        font-size: 18px;
+        letter-spacing: 0px;
+        line-height: 29px;
+    }
+    .text-center {
+        text-align: center;
+        font-size: 30px;
+        padding-top: 10px;
+    }
+    .marketing_area ul {
+        font-size: 17px;
+        padding: 0px;
+        text-align: justify;
+    }
+    .MarketText
+    {
+        width: 305px;
+        margin-left: -15%;
+    }
+}
+@media only screen and (max-width: 768px)
+{
+    .section-2 {
+        height: 855px;
+        margin-top:-7%;
+    }
+    .section-1 {
+        width: 100%;
+        height: 280px;
+        margin-top: -12%;
+    }
+    .stats_section1 p{
+        font-size:25px;
+    }
+    .payoutbtn {
+        float:none!important;
+        margin-bottom: 25px;
+    }
+    .mediapadding{
+        padding: 0;
+    }
+    .main_heading {
+        font-size: 25px;
+        letter-spacing: 0px;
+        line-height: 35px;
+        padding-top: 35px;
+    }
+    .main_texts{
+        font-size: 18px;
+        letter-spacing: 0px;
+        line-height: 29px;
+    }
+    .text-center {
+        text-align: center;
+        font-size: 30px;
+        padding-top: 10px;
+    }
+    .marketing_area ul {
+        font-size: 17px;
+        padding: 0px;
+        text-align: justify;
+    }
+    .MarketText
+    {
+        width: 305px;
+        margin-left: -15%;
+    }
+    .affiliate-table-btn {
+        font-size: 6px;
+        height: 22px;
+        margin-bottom: 5px
+    }
+
+    .affiliate-table-name {
+        font-size: 9px;
+    }
+    .affiliate-other-details
+    {
+        font-size: 7px;
+    }
+    .img-affiliate {
+        width: 55px;
+        height: 55px;
+    }
+    .affiliate-table-details {
+        margin-left: 15px;
+        line-height: 12px;
+    }
+    .affiliate-table-h4
+    {
+        margin-top: 1px !important;
+        margin-bottom: 5px !important;
+        font-size: 12px !important;
+    }
+    .affiliate-table-h6
+    {
+        margin-top: 6px !important;
+        margin-bottom: 5px !important;
+        font-size: 10px !important;
+    }
+    .deskotp-only
+    {
+        display: none;
+    }
+    #affiliate-search
+    {
+        height: 10px;
+        font-size: 6px;
+    }
+    .affiliate-revenue-sort {
+        font-size: 8px;
+    }
+}
+@media only screen and (max-width: 1024px)
+{
+    .affiliate-table-details
+    {
+        margin-left: 25px;
+        line-height: 25px;
+    }
+    .affiliate-table-name
+    {
+        font-size: 14px;
+    }
+    .affiliate-other-details
+    {
+        font-size: 11px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
