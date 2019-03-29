@@ -1,43 +1,19 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{{env('APP_NAME')}}</title>
-
-    <!-- Tell the browser to be responsive to screen width -->
-    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-
-    <!-- Bootstrap 3.3.7 -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <!-- Ionicons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-
-    <!-- Theme style -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/admin-lte/2.4.3/css/AdminLTE.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/admin-lte/2.4.3/css/skins/_all-skins.min.css">
-    <link rel="stylesheet" href="{{asset('public/css/style2.css')}}">
-    <!-- iCheck -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/iCheck/1.0.2/skins/square/_all.css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    @include('frontEnd.header')
-
-</head>
-<body class="hold-transition login-page">
+@include('frontEnd.header')
 <div class="login-box">
     <div class="login-logo">
-        <h3>{{trans('auth.name')}}</h3>
-        <img src="{{asset('public/pictures/defaultlogo.png')}}">
+        <center>
+        @if($company!="" &&isset($company->logo))
+            <img src="{{asset('public/avatars').'/'.$company->logo}}" class="img img-responsive LogoImage">
+        @else
+            <img src="{{asset('public/image/logo.png')}}" class="img img-responsive LogoImage">
+        @endif
+        </center>
+        @if($company!="")
+            <h3>{{$company->name}}</h3>
+        @else
+            <h3>{{trans('auth.samy')}}</h3>
+            <h5><i>{{trans('auth.samy_tag')}}</i></h5>
+        @endif
     </div>
 
     <!-- /.login-logo -->
@@ -45,23 +21,21 @@
 
         <form method="post" action="{{ url('/login') }}">
             {!! csrf_field() !!}
-
+            @include('flash::message')
             <div class="form-group has-feedback {{ $errors->has('email') ? ' has-error' : '' }}">
-                <input type="email" class="form-control" name="email" value="{{ old('email') }}" placeholder="{{trans('auth.email_placeholder')}}">
-                <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+                <input type="email" class="form-control" name="email" value="{{ old('email') }}" placeholder="{{trans('auth.email')}}">
                 @if ($errors->has('email'))
                     <span class="help-block">
-                    <strong>{{trans('auth.failed')}}</strong>
+                    <strong>{{ $errors->first('email') }}</strong>
                 </span>
                 @endif
             </div>
 
             <div class="form-group has-feedback{{ $errors->has('password') ? ' has-error' : '' }}">
-                <input type="password" class="form-control" placeholder="{{trans('auth.password_placeholder')}}" name="password">
-                <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+                <input type="password" class="form-control" placeholder="{{trans('auth.psw')}}" name="password">
                 @if ($errors->has('password'))
                     <span class="help-block">
-                    <strong>{{trans('auth.failed')}}</strong>
+                    <strong>{{ $errors->first('password') }}</strong>
                 </span>
                 @endif
 
@@ -69,15 +43,21 @@
             <div class="row">
                     <div class="col-md-4"></div>
                 <div class="col-md-4">
-                    <center><button type="submit" class="btn btn-info btn-login">{{trans('auth.login_btn')}}</button></center>
+                    <center><button type="submit" class="btn btn-info btn-lg btn-login">{{trans('header.login')}}</button></center>
                 </div>
                 <!-- /.col -->
             </div>
         </form>
         <br/>
         <center>
-            <a class="login-link" href="{{ url('/password/reset') }}">{{trans('auth.forgot')}}</a><br>
-            <a href="{{ url('/home#plans') }}" class="text-center login-link">{{trans('auth.new_register')}}</a><br/>
+            <a class="login-link" href="{{ url('/password/reset') }}">{{trans('auth.forgot')}}</a>
+            <br>
+            <?php
+                $domain = request()->getHost();
+            ?>
+            @if($domain == 'samy-tech.com')
+            <a class="login-link" href="{{ url('/password/reset') }}">{{trans('auth.new_register')}}</a><br>
+            @endif
         </center>
 
     </div>
@@ -86,7 +66,7 @@
 <!-- /.login-box -->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
 
 <!-- AdminLTE App -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/admin-lte/2.4.3/js/adminlte.min.js"></script>

@@ -1,15 +1,15 @@
 <?php
 
 return array (
-    'build_your_plan' => 'Build Your Plan',
-    'save_with_yearly_plan' => 'Save 20% with Yearly Plans',
-    'monthly' => 'Monthly',
-    'yearly' => 'Yearly',
-    'no_plans' => 'No Plans.',
-    'your_plan' => 'Your Plan.',
-    'order_now' => 'Order Now',
+    'build_your_plan' => 'Créez votre abonnement',
+    'save_with_yearly_plan' => 'Faites de grosses économies avec les abonnements annuels',
+    'monthly' => 'Mensuel',
+    'yearly' => 'Annuel',
+    'no_plans' => 'Aucun abonnement disponible',
+    'your_plan' => 'Votre abonnement',
+    'order_now' => 'Commander',
     'TOTAL' => 'TOTAL',
-    'up_to' => 'up to',
-    'description_1' => 'The Samy Bot Junior streams your ad ',
-    'description_2' => 'around it every 2 seconds. All smartphones in this range can recive a notification with your ad.',
+    'up_to' => 'jusqu à',
+    'description_1' => 'Le Samy Bot junior envoie votre publicité ',
+    'description_2' => 'autour de lui toutes les 2 secondes. Tous les smartphones équipés dans ce rayon recevront votre publicité.',
 );

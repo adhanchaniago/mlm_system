@@ -4,13 +4,13 @@
 
 return array (
 
-    'saved' => 'Level saved successfully',
-    'delete' => 'Level Deleted successfully',
-    'update' => 'Level Updated successfully',
-    'error' => 'Level not Found',
-    'level' => 'Level',
-    'levels' => 'Levels',
-    'add_level' => 'Add a Level',
-    'delete_level' => 'Delete Last Level',
-    'add_level_description' => 'This is the Percentage of revenue that is calculated towards the top Level',
+    'saved' => 'Niveau enregistré',
+    'delete' => 'Niveau supprimé',
+    'update' => 'Niveau mis à jour',
+    'error' => 'Niveau non trouvé',
+    'level' => 'Niveau',
+    'levels' => 'Niveaux',
+    'add_level' => 'Ajouter niveau',
+    'delete_level' => 'Supprimer dernier niveau',
+    'add_level_description' => 'Pourcentage du chiffre d affaire qui remonte au premier niveau',
 );

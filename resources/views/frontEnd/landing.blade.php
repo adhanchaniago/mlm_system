@@ -1,373 +1,106 @@
-<?php
-use App\Models\sliderImages;
-use App\Models\frontPage;
-use App\Models\plantable;
-
-$frontPage=frontPage::first();
-$slider=sliderImages::get();
-?>
-@include('frontEnd.mainHeader')
-
-{{--**************** Header Ends *****************************--}}
-
+@include('frontEnd.header')
 <div class="container-fluid">
-
-    <div class="row">
-
-        <div id="bootstrap-touch-slider" class="carousel bs-slider slide  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="5000" >
-
-            <!-- Indicators -->
-
-            {{--<ol class="carousel-indicators">--}}
-
-                {{--<li data-target="#bootstrap-touch-slider" data-slide-to="0" class="active"></li>--}}
-
-                {{--<li data-target="#bootstrap-touch-slider" data-slide-to="1"></li>--}}
-
-                {{--<li data-target="#bootstrap-touch-slider" data-slide-to="2"></li>--}}
-
-            {{--</ol>--}}
-
-            <!-- Wrapper For Slides -->
-
-            <div class="carousel-inner" role="listbox">
-
-                <!-- Third Slide -->
-                <?php
-                    $x=1;
-                foreach ($slider as $slides){
-                ?>
-                @if($x%2 == 0)
-                <div class="item active">
-
-                    <!-- Slide Background -->
-
-                    <img src="{{asset('public/avatars/'.$slides->image)}}" class="slide-image"/>
-
-                    <div class="bs-slider-overlay"></div>
-
-                    <div class="container">
-
-                        <div class="row">
-
-                            <!-- Slide Text Layer -->
-
-                            <div class="slide-text slide_style_left">
-
-                                <h1 data-animation="animated bounceInLeft">{{$slides->heading}}</h1>
-
-                                <p data-animation="animated fadeInLeft">{{$slides->text}}</p>
-
-                                {{--<a href="http://bootstrapthemes.co/" target="_blank" class="btn btn-default" data-animation="animated bounceInLeft">Lorem</a>--}}
-
-                                {{--<a href="http://bootstrapthemes.co/" target="_blank"  class="btn btn-primary" data-animation="animated bounceInRight">Lorem</a>--}}
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
+    <div class="row" id="home">
+        <div class="col-md-12 col-xs-12 col-sm-12 section-1">
+            <div class="container">
+                <div class="col-md-6 col-sm-8 col-xs-12 col-md-offset-1 main_text_section">
+                    <p class="main_heading">{{trans('landing.intro_1')}}</p>
+                    <h3 class="main_texts">{{trans('landing.intro_2')}}</h3>
                 </div>
-
-                <!-- End of Slide -->
-
-                <!-- Second Slide -->
-                @elseif($x%3 == 0)
-
-                <div class="item">
-
-
-
-                    <!-- Slide Background -->
-
-                    <img src="{{asset('public/avatars/'.$slides->image)}}" class="slide-image"/>
-
-                    <div class="bs-slider-overlay"></div>
-
-                    <!-- Slide Text Layer -->
-
-                    <div class="slide-text slide_style_center">
-
-                        <h1 data-animation="animated rubberBand">{{$slides->heading}}</h1>
-
-                        <p data-animation="animated lightSpeedIn">{{$slides->text}}</p>
-
-                        {{--<a href="http://bootstrapthemes.co/" target="_blank" class="btn btn-default" data-animation="animated bounceInUp">Lorem</a>--}}
-
-                        {{--<a href="http://bootstrapthemes.co/" target="_blank"  class="btn btn-primary" data-animation="animated bounceInDown">Lorem</a>--}}
-
-                    </div>
-
-                </div>
-
-                <!-- End of Slide -->
-                @else
-                <!-- Third Slide -->
-
-                <div class="item">
-
-                    <!-- Slide Background -->
-
-                    <img src="{{asset('public/avatars/'.$slides->image)}}" class="slide-image"/>
-
-                    <div class="bs-slider-overlay"></div>
-
-                    <!-- Slide Text Layer -->
-
-                    <div class="slide-text slide_style_right">
-
-                        <h1 data-animation="animated zoomInLeft">{{$slides->heading}}</h1>
-
-                        <p data-animation="animated fadeInRight">{{$slides->text}}</p>
-
-                        {{--<a href="http://bootstrapthemes.co/" target="_blank" class="btn btn-default" data-animation="animated fadeInLeft">Lorem</a>--}}
-
-                        {{--<a href="http://bootstrapthemes.co/" target="_blank" class="btn btn-primary" data-animation="animated fadeInRight">Lorem</a>--}}
-
-                    </div>
-
-                </div>
-                @endif
-                <?php
-                $x++;
-                }
-                ?>
-
-                <!-- End of Slide -->
-
             </div>
-
-            <!-- End of Wrapper For Slides -->
-
-            <!-- Left Control -->
-
-            <a class="left carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="prev">
-
-                <span class="fa fa-angle-left" aria-hidden="true"></span>
-
-                <span class="sr-only">Previous</span>
-
-            </a>
-
-            <!-- Right Control -->
-
-            <a class="right carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="next">
-
-                <span class="fa fa-angle-right" aria-hidden="true"></span>
-
-                <span class="sr-only">Next</span>
-
-            </a>
-
         </div>
-
-        <!-- End  bootstrap-touch-slider Slider -->
-
     </div>
+    <!--SECTION-1 END-->
 
-    <div class="col-md-12" id="about">
-
-        <center><p class="landingHeading">About Us</p></center>
-
-        <div class="col-md-6 aboutTxt">
-            <?php
-            echo $frontPage->aboutUs_main_description;
-            ?>
-        </div>
-
-        <div class="col-md-6">
-
-            <img src="{{asset('public/avatars/'.$frontPage->aboutUs_image)}}" class="aboutImg">
-
-        </div>
-
-        <div class="col-md-12 aboutTxt">
-
-            <br/>
-
-                <?php
-                echo $frontPage->aboutUs_sub_description;
-                ?>
-        </div>
-
-    </div>
-
-    <div class="col-md-12" id="plans">
-
-        <center><p class="landingHeading">Plans</p></center>
-
-        <br/>
-
-        <br/>
-
-        <div class="carousel slide" data-ride="carousel" data-type="multi" data-interval="9000" id="myCarousel">
-            <div class="carousel-inner">
-                <?php
-                $plans=plantable::get();
-                $i=0;
-                foreach ($plans as $plan){
-                    if ($i == 0){
-                        ?>
-                <div class="item active">
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="pricingTable">
-
-                            <h3 class="title">{{$plan->name}}</h3>
-
-                            <div class="price-value">$ {{ $plan->amount }} / {{$plan->term}}</div>
-
-                            <ul class="pricing-content">
-                                <img src="{{asset('public/avatars/'.$plan->image)}}" class="planImage">
-
-                            </ul>
-
-                            <a href="{{url('register').'/1'}}" class="pricingTable-signup">Sign Up</a>
-
-                        </div>
+    <!--SECTION-2-->
+    <div class="row" id="section1">
+        <div class="col-md-12 col-xs-12 col-sm-12 section-2">
+            <div class="container">
+                <h1 class="text-center">{{trans('header.samy_bot')}}</h1>
+                <p class="text-center">{{trans('landing.local_revolution')}}</p>
+                <div class="col-md-12 col-xs-12 col-sm-12 home-page-division">
+                    <div class="col-md-6 col-xs-12 col-sm-6">
+                        <h3 class="heading_division">{{trans('landing.local_marketing')}}</h3>
+                        <ol class="textUl">
+                            <li>{{trans('landing.samybot_details_line_1')}}</li>
+                            <br>
+                            <li>{{trans('landing.samybot_details_line_2')}}</li>
+                            <br>
+                            <li>{{trans('landing.samybot_details_line_3')}}</li>
+                            <br>
+                            {{trans('landing.bot_start_price')}}
+                        </ol>
+                    </div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-5 col-xs-12 col-sm-5">
+                        <iframe class="home_video" src="https://www.youtube.com/embed/PvPxFQAnczE"></iframe>
+                        <a href="{{url('samybot/plan')}}"><button class="video_btn">{{trans('landing.sign_up_now')}}</button></a>
                     </div>
                 </div>
-                    <?php
-                    }
-                    else{
-                        ?>
-                <div class="item">
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="pricingTable">
+            </div>
+        </div>
+    </div>
+    <!--SECTION-2 END-->
 
-                            <h3 class="title">{{$plan->name}}</h3>
+    <!--SECTION-3-->
+    <div class="row" id="section2">
+        <div class="col-md-12 section-3">
+            <div class="container">
 
-                            <div class="price-value">$ {{ $plan->amount }} / {{$plan->term}}</div>
-
-                            <ul class="pricing-content">
-                                <img src="{{asset('public/avatars/'.$plan->image)}}" class="planImage">
-
-                            </ul>
-
-                            <a href="{{url('register').'/1'}}" class="pricingTable-signup">Sign Up</a>
-
-                        </div>
+                <h1 class="text-center">{{trans('header.samy_affiliate')}}</h1>
+                <p class="text-center">{{trans('landing.exponential')}}</p>
+                <div class="col-md-12 home-page-division">
+                    <div class="col-md-6">
+                        <h3 class="heading_division">{{trans('landing.affiliate_subline_2')}}</h3>
+                        <ol class="textUl">
+                            <li>{{trans('landing.affiliate_line_1')}}</li>
+                            <br>
+                            <li>{{trans('landing.affiliate_line_2')}}</li>
+                            <br>
+                            <li>{{trans('landing.affiliate_line_3')}}</li>
+                            <br>
+                            {{trans('landing.affiliate_line_4')}}
+                        </ol>
+                    </div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-5">
+                        <iframe class="home_video" src="https://www.youtube.com/embed/PvPxFQAnczE"></iframe>
+                        <a href="{{url('plans')}}">
+                            <button class="video_btn">{{trans('landing.sign_up_now')}}</button>
+                        </a>
                     </div>
                 </div>
-                    <?php
-                    }
-                    $i++;
-                    }
-                    ?>
             </div>
-            <a class="left carousel-control" href="#myCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
-            <a class="right carousel-control" href="#myCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
         </div>
-
     </div>
+    <!--SECTION-3 END-->
 
-    <div class="row" >
-
-        <center><p class="landingHeading">Contact Us</p></center>
-
-        <br/>
-
-        <div class="col-md-12 contactFormDiv" id="contactUs">
-
-            <br/>
-
-            <br/>
-
-            <br/>
-
-            <div class="container-fluid ">
-
-                <div class="col-md-2"></div>
-
-                <div class="col-md-8 ContactBg">
-
-                <span class="mailImg">
-
-                    <img src="{{asset('public/pictures/mailSymbol.png')}}" class="submitMailImg">
-
-                </span>
-
-                    <form>
-
-                        <center>
-
-                            <h2 class="contactMsg">
-
-                                <br/>
-
-                                Drop Us A Message
-
-                            </h2>
-
-                        </center>
-
-                        <div class="col-md-6 submitDiv">
-
-                            <input type="text" class="form-control submitForm" placeholder="Name">
-
-                        </div>
-
-                        <div class="col-md-6 submitDiv">
-
-                            <input type="email" class="form-control submitForm" placeholder="Email Address">
-
-                        </div>
-
-                        <div class="col-md-12 submitDiv">
-
-                            <textarea rows="4" class="form-control " placeholder="Write us a message"></textarea>
-
-                        </div>
-
-                        <div class="col-md-12 submitDiv">
-
-                            <div class="col-md-5 "></div>
-
-                            <div class="col-md-4 ">
-
-                                <button type="button" class="btn ContactSubmitBtn">Submit</button>
-
-                            </div>
-
-                        </div>
-
-                    </form>
-
+    <!--CONTACT SECTION-->
+    <div class="row" id="section3">
+        <div class="col-md-12 contact_section">
+            <h1 class="text-center">{{trans('header.contact_us')}}</h1><br><br>
+            <form method="post" action="{{url('contactUs')}}">
+                {{csrf_field()}}
+                <div class="pull-left col-md-3 col-md-offset-1">
+                    <div class="form-group">
+                        <input type="text" name="name" class="form-control contact_input" id="usr" placeholder="{{trans('landing.name')}}">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" class="form-control contact_input" id="email" placeholder="{{trans('landing.email')}}">
+                    </div>
                 </div>
-
-            </div>
-
-            <br/>
-
+                <div class="col-md-5 clearfix">
+                    <div class="form-group">
+                        <textarea name="msg" class="form-control contact_input" rows="7" id="comment" placeholder="{{trans('landing.msg')}}"></textarea>
+                    </div>
+                </div>
+                <div class="pull-left col-md-3 col-md-offset-1">
+                    <button type="submit">{{trans('landing.send')}}</button>
+                </div>
+            </form>
         </div>
-
-        <br/>
-
-
-
     </div>
-
+    <!--CONTACT SECTION END-->
 </div>
-@include('frontEnd.mainFooter')
-
-<script>
-    $(document).ready(function(){
-        $('.carousel[data-type="multi"] .item').each(function(){
-            var next = $(this).next();
-            if (!next.length) {
-                next = $(this).siblings(':first');
-            }
-            next.children(':first-child').clone().appendTo($(this));
-
-            for (var i=0;i<4;i++) {
-                next=next.next();
-                if (!next.length) {
-                    next = $(this).siblings(':first');
-                }
-
-                next.children(':first-child').clone().appendTo($(this));
-            }
-        });
-    });
-</script>
-<script src="{{asset('public/js/animate.js')}}"></script>
+<!--Footer section-->
+@include('frontEnd.footer')

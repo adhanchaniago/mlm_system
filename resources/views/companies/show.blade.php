@@ -1,5 +1,12 @@
 @extends('layouts.app')
 
+@section('css')
+    <style>
+        td,th{
+            text-align: center;
+        }
+    </style>
+@endsection
 @section('content')
     <section class="content-header">
         <h1>
@@ -9,9 +16,9 @@
     <div class="content">
         <div class="box box-primary">
             <div class="box-body">
-                <div class="row" style="padding-left: 20px">
+                <div class="col-md-12" style="padding-left: 20px">
                     @include('companies.show_fields')
-                    <a href="{!! route('companies.index') !!}" class="btn btn-default">Back</a>
+                    <a href="{{\Illuminate\Support\Facades\URL::previous()}}" class="btn btn-default">Back</a>
                 </div>
             </div>
         </div>

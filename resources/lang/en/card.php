@@ -15,7 +15,8 @@ return array (
     'cvv_required' => 'CVV Required',
     'amount_required' => 'Amount Required',
     'valid' => 'Entered Card number is Not Valid',
-    'valid_cvv' => "BVCYour card's security code is invalid.",
-    'valid_month' => "BVCYour card's expiration month is invalid",
-    'valid_year' => "BVCYour card's expiration year is invalid.",
+    'valid_cvv' => "Your card's security code is invalid.",
+    'valid_month' => "Your card's expiration month is invalid",
+    'valid_year' => "Your card's expiration year is invalid.",
+    'saved' => "Card Saved Successfully.",
 );

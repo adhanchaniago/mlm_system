@@ -1,23 +1,22 @@
 <!-- Company Id Field -->
-<div class="form-group col-sm-6">
-    {!! Form::label('company_id', 'Company Id:') !!}
-    {!! Form::text('company_id', null, ['class' => 'form-control']) !!}
-</div>
+
+    <input type="hidden" name="company_id" value="{{Auth::user()->company_id}}">
+
 
 <!-- Month Field -->
-<div class="form-group col-sm-6">
+<div class="form-group col-sm-12">
     {!! Form::label('month', 'Month:') !!}
     {!! Form::text('month', null, ['class' => 'form-control']) !!}
 </div>
 
 <!-- Year Field -->
-<div class="form-group col-sm-6">
+<div class="form-group col-sm-12">
     {!! Form::label('year', 'Year:') !!}
     {!! Form::text('year', null, ['class' => 'form-control']) !!}
 </div>
 
 <!-- Amount Field -->
-<div class="form-group col-sm-6">
+<div class="form-group col-sm-12">
     {!! Form::label('amount', 'Amount:') !!}
     {!! Form::text('amount', null, ['class' => 'form-control']) !!}
 </div>

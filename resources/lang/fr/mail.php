@@ -1,10 +1,10 @@
 <?php
 return array (
-    'welcome_to_affiliate' => 'Welcome to Samy Affiliate',
-    'hello' => 'Hello',
-    'please_verify' => 'Please Verify Your Email For Using Our Services',
-    'verify_now' => 'Verify Now',
-    'subsscribe_success' => 'Congratulation! You have Successfully Subscribed to Samy Affiliate!',
-    'join_here' => 'Join Here',
-    'affiliate_invite_text' => 'Please Click on the below link to Join with Us!',
+    'welcome_to_affiliate' => 'Bienvenue sur Samy Bot',
+    'hello' => 'Bonjour',
+    'please_verify' => 'Veuillew cliquer sur le lien ci-dessous pour activer votre compte',
+    'verify_now' => 'ACTIVATION',
+    'subsscribe_success' => 'Félicitations ! Vous êtes à présent un de nos membres.',
+    'join_here' => 'Se connecter',
+    'affiliate_invite_text' => 'Veuillez cliquer sur le lien ci-dessous pour vous connecter.',
 );

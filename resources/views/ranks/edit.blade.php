@@ -11,7 +11,7 @@
        <div class="box box-primary">
            <div class="box-body">
                <div class="row">
-                   {!! Form::model($rank, ['route' => ['ranks.update', $rank->id], 'method' => 'patch']) !!}
+                   {!! Form::model($rank, ['route' => ['ranks.update', $rank->id], 'method' => 'patch','files' => true]) !!}
 
                         @include('ranks.fields')
 

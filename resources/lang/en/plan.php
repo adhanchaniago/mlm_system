@@ -11,7 +11,7 @@ return array (
     'choosePlans' => 'Choose Your Plan',
     'monthly' => 'Monthly',
     'yearly' => 'Yearly',
-    'save_20%' => 'Save 20% with Yearly Plans',
+    'save_20%' => 'Save big with yearly plans',
     'commissions' => 'Commissions',
     'unlimited_products' => 'Unlimited Products',
     'unlimited_sales' => 'Unlimited sales',
@@ -22,5 +22,6 @@ return array (
     'order_now' => 'Order Now',
     'no_plans' => 'No Plans are Available',
     'plan_expire' => 'Plan Expiry',
+    'purchase_required' => 'You need to Purchase a Plan before continue!',
 
 );

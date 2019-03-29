@@ -1,12 +1,12 @@
 <?php
 
 return array (
-    'saved' => 'Company saved successfully',
-    'update_error' => 'Company not found',
-    'update_success' => 'Company updated successfully',
-    'update_delete' => 'Company deleted successfully',
-    'smtp_update' => 'SMTP Settings Saved successfully',
-    'card_save' => 'Card Saved successfully',
-    'card_delete' => 'Card Deleted successfully',
-    'card_update' => 'Card Activated successfully',
+    'saved' => 'Société enregistrée',
+    'update_error' => 'Société inexistante',
+    'update_success' => 'Société mise à jour',
+    'update_delete' => 'Société supprimée',
+    'smtp_update' => 'SMTP enregistré',
+    'card_save' => 'Carte enregistrée',
+    'card_delete' => 'Carte supprimée',
+    'card_update' => 'Carte activée',
 );

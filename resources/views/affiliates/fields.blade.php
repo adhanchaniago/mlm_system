@@ -1,13 +1,7 @@
 <!-- Company Id Field -->
 
-<div class="form-group col-sm-12">
 
-    {!! Form::label('company_id', 'Company Id:') !!}
-
-    {!! Form::text('company_id', null, ['class' => 'form-control']) !!}
-
-</div>
-
+<input type="hidden" name="company_id" value="{{Auth::user()->company_id}}">
 
 
 <!-- Photo Field -->
@@ -70,67 +64,6 @@
     {!! Form::text('paypal_email', null, ['class' => 'form-control']) !!}
 
 </div>
-
-
-
-<!-- Rankid Field -->
-
-<div class="form-group col-sm-12">
-
-    {!! Form::label('rankid', 'Rankid:') !!}
-
-    {!! Form::text('rankid', null, ['class' => 'form-control']) !!}
-
-</div>
-
-
-
-<!-- Current Revenue Field -->
-
-<div class="form-group col-sm-12">
-
-    {!! Form::label('current_revenue', 'Current Revenue:') !!}
-
-    {!! Form::text('current_revenue', null, ['class' => 'form-control']) !!}
-
-</div>
-
-
-
-<!-- Past Revid Field -->
-
-<div class="form-group col-sm-12">
-
-    {!! Form::label('past_revid', 'Past Revid:') !!}
-
-    {!! Form::text('past_revid', null, ['class' => 'form-control']) !!}
-
-</div>
-
-
-
-<!-- Level P1 Affiliateid Field -->
-
-<div class="form-group col-sm-12">
-
-    {!! Form::label('level_p1_affiliateid', 'Level P1 Affiliateid:') !!}
-
-    {!! Form::text('level_p1_affiliateid', null, ['class' => 'form-control']) !!}
-
-</div>
-
-
-
-<!-- Level M1 Affiliateid Field -->
-
-<div class="form-group col-sm-12">
-
-    {!! Form::label('level_m1_affiliateid', 'Level M1 Affiliateid:') !!}
-
-    {!! Form::text('level_m1_affiliateid', null, ['class' => 'form-control']) !!}
-
-</div>
-
 
 
 <!-- Submit Field -->

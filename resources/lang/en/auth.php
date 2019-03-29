@@ -31,4 +31,6 @@ return array (
   'psw_required' => 'The password field is required.',
   'user_exists' => 'User is already Exists',
   'only_image' => 'Only Images are allowed',
+  'terms_condition1' => 'By Clicking proceed, I agree to the ',
+  'terms_condition2' => 'Terms and Conditions',
 );

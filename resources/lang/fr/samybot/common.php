@@ -2,13 +2,13 @@
 
 return array (
     'pack' => 'pack',
-    'month' => 'month',
-    'unit' => 'unit',
-    'price' => 'Price',
-    'quantity' => 'Quantity',
+    'month' => 'mois',
+    'unit' => 'pièce',
+    'price' => 'Prix',
+    'quantity' => 'Quantité',
     'total' => 'Total',
     'activation' => 'Activation',
-    'device' => 'device',
-    'enter_valid_phone_number' => 'Please Enter the Valid Phone Number.',
-    'phone_number_already_exists' => 'This phone number already exists.',
+    'device' => 'appareil',
+    'enter_valid_phone_number' => 'Entrez un téléphone valide.',
+    'phone_number_already_exists' => 'Ce numéro est déjà en base de données.',
 );

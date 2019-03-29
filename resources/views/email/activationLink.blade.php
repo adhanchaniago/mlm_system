@@ -1,0 +1,2 @@
+Thanks for signing up with Samy!!! You'll be able to get the best of your app pretty soon. Just click on this link to activate your account
+<a href="{{url('api/activate_users').'/'.$data['activationLink']}}"><?php echo $data['activationLink']; ?></a>

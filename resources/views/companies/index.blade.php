@@ -61,11 +61,11 @@
         // $(document).ready(function() {
         //     $('#paypalCredentials-table').DataTable();
         // } );
-        function changeStatus(id,val) {
+        function disableCompany(id,val) {
             if (confirm("Are You Sure?"))
             {
                 $.ajax({
-                    url: "{{url('changeStatus')}}/"+""+id+"/"+val,
+                    url: "{{url('disableCompany')}}/"+""+id+"/"+val,
                     success: function(result){
                     window.location.reload();
                 }});

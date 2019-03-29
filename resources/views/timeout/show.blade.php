@@ -22,7 +22,11 @@
                 <div class="row">
                     <div class="col-sm-4"></div>
                     <div class="col-sm-4 form-group">
-                        <input type="text" name="days" class="form-control" value="{{$timeout->days}}" readonly>
+                        @if($timeout!="")
+                            <input type="text" name="days" class="form-control" value="{{$timeout->days}}" readonly>
+                        @else
+                            <input type="text" name="days" class="form-control" value="0" readonly>
+                        @endif
                     </div>
                     <div class="col-sm-12 form-group"></div>
                     <center><div class="col-sm-12">

@@ -1,9 +1,5 @@
 <?php
-
-
-
 return array (
-
     'first_name' => 'First Name',
     'last_name' => 'Last Name',
     'email' => 'Email',
@@ -34,11 +30,14 @@ return array (
     'your_plans' => 'Your Plans',
     'billing_history' => 'Billing History',
     'samy_bot' => 'Samy Bot',
-    'renews' => 'Renews',
+    'renews' => 'Renew',
+    'expires_on' => 'Expires on',
+    'renews_on' => 'Renews on',
     'samy_affiliate' => 'Samy Affiliate',
     'commission' => 'Commission',
     'activate' => 'Activate Auto Renewal',
     'de_Activate' => 'De-Activate Auto Renewal',
+    're_Activate' => 'Renew',
     'month' => 'month',
     'year' => 'year',
     'samy_linkedin' => 'Samy LinkedIn',
@@ -56,5 +55,7 @@ return array (
     'export_list_sales' => 'Export list of sales',
     'bank_accounts' => 'Bank Account Information',
     'paypal_email' => 'Paypal Email',
-
+    'purchase_more_bots' => 'Purchase Bots',
+    'auto_renewal_off_bot' => 'Are You sure You want to turn off Auto-renewal to this Plan?',
+    'auto_renewal_on_bot' => 'Are You sure You want to turn on Auto-renewal to this Plan?',
 );

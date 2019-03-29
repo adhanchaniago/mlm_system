@@ -1,8 +1,9 @@
 <?php
 
 return array (
-    'my_campaign' => 'My Campaigns',
-    'my_samy_bots' => 'My Samy Bots',
-    'new_campaign' => 'New Campaign',
-    'my_prospects' => 'My Prospects',
+    'my_campaign' => 'Mes campagnes',
+    'my_samy_bots' => 'Mes Samy Bots',
+    'new_campaign' => 'Nouvelle campagne',
+    'my_prospects' => 'Mes prospects',
+    'my_favorite' => 'Mes followers',
 );

@@ -1,10 +1,23 @@
 <?php
 return array (
     'welcome_to_affiliate' => 'Welcome to Samy Affiliate',
+    'welcome_to' => 'Welcome to ',
     'hello' => 'Hello',
     'please_verify' => 'Please Verify Your Email For Using Our Services',
     'verify_now' => 'Verify Now',
     'subsscribe_success' => 'Congratulation! You have Successfully Subscribed to Samy Affiliate!',
     'join_here' => 'Join Here',
     'affiliate_invite_text' => 'Please Click on the below link to Join with Us!',
+    'purchase_link' => 'Purchase Link',
+    'samybot_purchase_link' => 'SamyBot Purchase Link',
+    'welcome' => 'Welcome',
+    'plan_expired' => 'Plan is Expired',
+    'commission_charge' => 'Commission Charge',
+    'disabled' => 'Account Disabled',
+    'mail_to_plan_expired' => 'This Mail is to inform you that Your Plan has been expired on ',
+    'renew_plan' => 'Please renew the Plan by clicking the below Link',
+    'renew_now' => 'Renew',
+    'mail_to_commission_failed1' => 'This mail is to inform You that, the Commission payment of amount ',
+    'mail_to_commission_failed2' => ' for the previous month is Failed Due to Wrong Paypal Credentias.',
+    'contact_admin' => 'Please Contact Admin for More details',
 );
